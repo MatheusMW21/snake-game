@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Gentium+Book+Basic&family=Limelight&family=Noticia+Text&family=Open+Sans&family=Oxanium:wght@300&family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    height:95vh;
+    width: 125;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(207, 54, 87);
+    color: rgb(44, 139, 44)
+}
+
+#area-total{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#menu-esquerdo{
+    height:50vh;
+    padding: 10px 10px 10px 10px;
+    float:left;
+    text-align: center;
+    background-color: rgb(201, 252, 201);
+}
+
+input{
+    text-align: center;
+    background-color: rgb(235, 255, 235);
+    border: 0;
+    color:teal;
+}
+
+#jogo {
+    width:95;
+    float:left;
+}
